@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><style>
+    #light-icon {
+      display: inline;
+    }
+    #dark-icon {
+      display: none;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      #light-icon {
+        display: none;
+      }
+      #dark-icon {
+        display: inline;
+      }
+    }
+  </style><g id="light-icon"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><g clip-path="url(#SvgjsClipPath1092)"><rect width="1000" height="1000" fill="#000000"></rect><g transform="matrix(17.647058823529413,0,0,17.647058823529413,200,235.29411764705878)"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="34" height="30"><svg width="34" height="30" viewBox="0 0 34 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M30.0801 0.450195L33.8465 6.95117L30.0801 13.4521H22.5472L18.7808 6.95117L22.5472 0.450195L30.0801 0.450195Z" fill="white"></path>
+<path d="M11.2993 0.450195L24.4045 23.0488L20.638 29.5498H13.1051L0 6.95117L3.76644 0.450195L11.2993 0.450195Z" fill="white"></path>
+</svg></svg></g></g><defs><clipPath id="SvgjsClipPath1092"><rect width="1000" height="1000" x="0" y="0" rx="350" ry="350"></rect></clipPath></defs></svg></g><g id="dark-icon"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><g><g transform="matrix(29.41176470588235,0,0,29.41176470588235,0,58.82352941176475)"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="34" height="30"><svg width="34" height="30" viewBox="0 0 34 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M30.0801 0.450195L33.8465 6.95117L30.0801 13.4521H22.5472L18.7808 6.95117L22.5472 0.450195L30.0801 0.450195Z" fill="white"></path>
+<path d="M11.2993 0.450195L24.4045 23.0488L20.638 29.5498H13.1051L0 6.95117L3.76644 0.450195L11.2993 0.450195Z" fill="white"></path>
+</svg></svg></g></g></svg></g></svg>

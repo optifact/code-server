@@ -11,8 +11,13 @@ rm ./lib/vscode/resources/server/favicon.ico
 rm ./lib/vscode/resources/server/manifest.json
 rm ./lib/vscode/src/vs/workbench/browser/media/code-icon.svg
 rm ./src/browser/media/*
+rm ./src/vs/workbench/browser/parts/editor/media/letterpress*
 
 # Copy new branding files
 cp ./branding/vscode/* ./lib/vscode/resources/server/
 cp ./branding/pwa/* ./src/browser/media/
 cp ./branding/workbench/* ./lib/vscode/src/vs/workbench/browser/media/
+cp ./branding/workbench/code-icon.svg ./src/vs/workbench/browser/parts/editor/media/letterpress-dark.svg
+cp ./branding/workbench/code-icon.svg ./src/vs/workbench/browser/parts/editor/media/letterpress-hcDark.svg
+cp ./branding/workbench/code-icon.svg ./src/vs/workbench/browser/parts/editor/media/letterpress-hcLight.svg
+cp ./branding/workbench/code-icon.svg ./src/vs/workbench/browser/parts/editor/media/letterpress-light.svg

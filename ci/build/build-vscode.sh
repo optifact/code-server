@@ -58,6 +58,11 @@ main() {
     exit 1
   fi
 
+  if [[ ! ${NAME-} ]]; then
+    echo "NAME not set. Please set before running this script:"
+    exit 1
+  fi
+
   # Add the date, our name, links, enable telemetry (this just makes telemetry
   # available; telemetry can still be disabled by flag or setting), and
   # configure trusted extensions (since some, like github.copilot-chat, never
@@ -73,8 +78,8 @@ main() {
     "enableTelemetry": true,
     "quality": "stable",
     "codeServerVersion": "$VERSION",
-    "nameShort": "code-server",
-    "nameLong": "code-server",
+    "nameShort": "$NAME",
+    "nameLong": "$NAME",
     "applicationName": "code-server",
     "dataFolderName": ".code-server",
     "win32MutexName": "codeserver",

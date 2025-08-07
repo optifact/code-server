@@ -38,7 +38,7 @@ Index: code-server/lib/vscode/src/vs/workbench/browser/client.ts
 +				message: localize(
 +					'insecureContext',
 +					"{0} is being accessed in an insecure context. Web views, the clipboard, and other functionality may not work as expected.",
-+					'code-server',
++					'Zodeve',
 +				),
 +				actions: {
 +					primary: [

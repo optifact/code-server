@@ -30,10 +30,13 @@ npm install
 
 ```bash
 npm run build
+# This next command will take a LOT of time to execute, for an 8gb VM with 2 cores about 8 hours
+# For 6 cores and 16gb, 1 hour. So you should probably use this instead...
+# VERSION=0.0.1 NAME=Zodeve npm run build:vscode &> logs.txt &
 VERSION=0.0.1 NAME=Zodeve npm run build:vscode
 npm run release
 npm run release:standalone
-npm run package
+VERSION=0.0.1 npm run package
 ```
 
 ## Install deb package
